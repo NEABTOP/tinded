@@ -1,0 +1,141 @@
+
+body{
+    font-family: "Kanit";
+}
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+.tinder_pic{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    transform: rotate(15deg);
+    z-index: 0;
+}
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+#TOP{
+    position: relative;
+
+}
+h1{
+    margin-top: 20px;
+    font-size: 350%;
+    font-family: Kanit;
+    line-height: 1.5;
+    font-weight: 800;
+    color: white;
+}
+.container-fluid{
+    padding: 3% 15%;
+    background-color: #ff4c68;
+}
+.navbar-brand{
+    font-size: 25px;
+}
+.nav-item{
+    font-size: 20px;
+    padding: 0 15px;
+}
+svg{
+    height: 30px;
+    width: 30px;
+}
+.apple{
+    margin-bottom: 8px;
+}
+.googleplay{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.navbar-brand{
+    font-weight: 550;
+    font-size: 200%;
+}
+.Downloadbutton{
+    margin: 3% 5% 3% 0;
+}
+.checkboxes{
+    margin-top: 40px;
+    text-align: center;
+}
+p{
+    color: #8f8f8f;
+}
+.icon{
+    margin-bottom: 1rem;
+    width: 70px;
+    height: 70px;
+}
+.bicon:hover{
+    background-color: #ff4c68;
+
+}
+svg:hover{
+    color: #ff4c68;
+}
+
+
+#features{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+h2{
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#testemonial{
+    
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+}
+.pdodon{
+    color: white;
+}
+#press{
+    text-align: center;
+    padding-bottom: 3%;
+}
+.logos{
+padding: 15px;
+width: 15%;
+}
+.dodon{
+    width: 300px;
+    height: 300px;
+}   
+.sandu{
+    width: 300px;
+    height: 300px;
+}
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.card-header{
+    font-size: 200%;
+}
+.pricingh1{
+    color: #ff4c68;
+    padding: 3%;
+}
+@media (max-width: 1028px){
+    .tinder_pic{
+        z-index: -2;
+    }
+}
+#end{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 3% 15%;
+}
